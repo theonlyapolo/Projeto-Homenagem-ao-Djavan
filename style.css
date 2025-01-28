@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    background-color: rgb(43, 37, 37);
+    color: white;
+    margin: 0 16px 0 16px;
+}
+
+h1 {
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 2px 4px 5px lightblue;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    color: #000000;
+    font-weight: 300;
+    margin-top:-15px;
+    margin-bottom: 80px;
+    text-shadow: 1px 2px 4px rgb(255, 255, 255);
+}
+
+.main .letraOceano {
+    border-radius: 8px;
+    width: 600px;
+    height: auto;
+}
+
+.main .comentario {
+    max-width: 500px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "DM Sans", serif;
+    text-decoration: none;
+}
+.main a{
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main .significado {
+    color: blanchedalmond;
+}
+
+.biografia{
+    display: flex;
+    text-align: justify;
+}
+
+.biografia .descricao {
+    font-family: "DM Sans", serif;
+    max-width: 500px;
+    font-size: 20px;
+    font-family: "DM Sans", serif;
+}
+
+.biografia .djavantransparente {
+    width: 800px;
+    height: auto;
+}
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bioh2, .redh2, .such2 {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.biografia a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.sucessos ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.sucessos {
+    text-align: center;
+}
+
+strong {
+    color: yellow;
+}
+
+.sucessos ul li {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.sucessos  .l1 {
+    color: rgb(54, 54, 185);
+}
+
+.sucessos  .l3 {
+    color: rgb(209, 23, 23);
+}
+
+.sucessos  .l4 {
+    color: rgb(134, 130, 122);
+}
+
+.sucessos  .l5 {
+    color: rgb(63, 194, 37);
+}
+
+.sucessos  .l6 {
+    color: rgb(206, 130, 17);
+}
+
+.container {
+    max-width: 550px;
+    min-width: 350px;
+}
+
+.carrossel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.2rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+}
+
+.card {
+    min-height: 350px;
+    min-width: 450px;
+    scroll-snap-align: center;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sucessos ul li a {
+    transition: 0.4s;
+}
+
+.sucessos ul li a:hover {
+    background-color: aquamarine;
+    color: black;
+    border-radius: 8px;
+}
+
+.redes .insta, .ttk, .spot, .yt, .site {
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.redes li a:hover {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.redes .insta {
+    color: orangered;
+}
+
+.redes .spot {
+    color: green;
+}
+
+.redes .ttk {
+    color: rgb(54, 2, 54);
+}
+
+.redes .yt {
+    color: red;
+}
+
+.redes .site {
+    color: rgb(168, 57, 13);
+}
+
+.redh2, .redes {
+    text-align: center;
+}
